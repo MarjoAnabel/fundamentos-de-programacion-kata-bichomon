@@ -27,10 +27,14 @@ const imagendonos = document.querySelectorAll('.img-fixed')
     camabiarimg[i].src = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
  };
 
+
+ /*Extra*/
+
 let infoCards = document.querySelectorAll(".infocard-lg-data.text-muted")
-for (i = 0 ; i < infoCards.length ; i++){
+for (i = 0 ; i < infoCards.length; i++){
     if (infoCards[i].innerHTML.includes("flying")){
         infoCards[i].style.backgroundColor = "black";
     }
 }
+
 
